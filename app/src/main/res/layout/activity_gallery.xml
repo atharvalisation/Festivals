@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#E5C287"
+    android:layout_height="match_parent"
+    tools:context=".statesfestival">
+    -
+    <!--Heading-->
+    <TextView
+        android:id="@+id/heading"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:background="@drawable/round_edge"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="40dp"
+        android:textStyle="bold|italic"
+        android:layout_centerHorizontal="true"
+        android:text="Gallery"
+        />
+
+    <ScrollView
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="375dp"
+                android:layout_height="200dp"
+                android:src="@drawable/varanasi1"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="375dp"
+                android:layout_height="200dp"
+                android:src="@drawable/navaratri1"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="375dp"
+                android:layout_height="200dp"
+                android:src="@drawable/durgapuja1"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="375dp"
+                android:layout_height="200dp"
+                android:src="@drawable/ganeshchaturti1"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="375dp"
+                android:layout_height="200dp"
+                android:src="@drawable/diwali1"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="375dp"
+                android:layout_height="200dp"
+                android:src="@drawable/dushera"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="375dp"
+                android:layout_height="200dp"
+                android:src="@drawable/shivrartri1"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="375dp"
+                android:layout_height="200dp"
+                android:src="@drawable/indianculture"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="375dp"
+                android:layout_height="200dp"
+                android:src="@drawable/holi1"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="375dp"
+                android:layout_height="200dp"
+                android:src="@drawable/holi2"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageView
+                android:id="@+id/holifestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/holifestival"/>
+
+            <ImageView
+                android:id="@+id/diwalifestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/diwalifestival"/>
+
+            <ImageView
+                android:id="@+id/duseherafestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dusherafestival"/>
+
+            <ImageView
+                android:id="@+id/eidfestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/eidfestival"/>
+
+            <ImageView
+                android:id="@+id/christmasfestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/christmasfestival"/>
+
+            <ImageView
+                android:id="@+id/pongalfestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pongalfestival"/>
+
+            <ImageView
+                android:id="@+id/ganeshfestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ganeshfestival"/>
+
+            <ImageView
+                android:id="@+id/durgafestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/durgafestival"/>
+
+            <ImageView
+                android:id="@+id/baisakhifestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baisakhifestival"/>
+
+            <ImageView
+                android:id="@+id/lohrifestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lohrifestival"/>
+
+            <ImageView
+                android:id="@+id/easterfestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/easterfestival"/>
+
+            <ImageView
+                android:id="@+id/onamfestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/onamfestival"/>
+
+            <ImageView
+                android:id="@+id/budhapurnimafestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/budhapurnimafestival"/>
+
+            <ImageView
+                android:id="@+id/rakshabandhanfestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rakshabandhanfestival"/>
+
+            <ImageView
+                android:id="@+id/janmashtamifestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/janmashtamifestival"/>
+
+            <ImageView
+                android:id="@+id/chhathpujafestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chhathpujafestival"/>
+
+            <ImageView
+                android:id="@+id/mahashivratrifestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mahashivratrifestival"/>
+
+            <ImageView
+                android:id="@+id/bihufestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bihufestival"/>
+
+            <ImageView
+                android:id="@+id/makarsankrantifestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/makarsankrantifestival"/>
+
+            <ImageView
+                android:id="@+id/hemisfestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hemisfestival"/>
+
+            <ImageView
+                android:id="@+id/losarfestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/losarfestival"/>
+
+            <ImageView
+                android:id="@+id/hornbillfestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hornbillfestival"/>
+
+            <ImageView
+                android:id="@+id/saraswatipujafestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/saraswatipujafestival"/>
+
+            <ImageView
+                android:id="@+id/navaratifestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/navaratifestival"/>
+
+            <ImageView
+                android:id="@+id/teejfestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/teejfestival"/>
+
+            <ImageView
+                android:id="@+id/ramnavamifestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/raamnavamifestival"/>
+
+            <ImageView
+                android:id="@+id/karvachauthfestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/karvachauthfestival"/>
+
+            <ImageView
+                android:id="@+id/sagafestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sagafestival"/>
+
+            <ImageView
+                android:id="@+id/dreefestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dreefestival"/>
+
+            <ImageView
+                android:id="@+id/mahavirfestival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mahavirfestival"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+    <!-- Navigation Bar   -->
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/round_edge"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:onClick="openHome"
+            android:src="@drawable/ic_baseline_home_24"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:onClick="opengallery"
+            android:src="@drawable/ic_baseline_insert_photo_24"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:onClick="openlist"
+            android:src="@drawable/ic_baseline_list_alt_24"
+            />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:onClick="opensearch"
+            android:src="@drawable/ic_baseline_arrow_back_24"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5C287"
+    tools:context=".MainActivity">
+
+    <HorizontalScrollView
+        android:id="@+id/statusbar"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="15dp"
+            android:onClick="maharashtra"
+            android:src="@drawable/maharashtralogo"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="15dp"
+            android:onClick="westbengal"
+            android:src="@drawable/westbengallogo"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="15dp"
+            android:onClick="kerala"
+            android:src="@drawable/keralalogo"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="15dp"
+            android:onClick="tamilnadu"
+            android:src="@drawable/tamilnadulogo"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="15dp"
+            android:onClick="rajasthan"
+            android:src="@drawable/rajasthanlogo"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="15dp"
+            android:onClick="goa"
+            android:src="@drawable/goalogo"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="15dp"
+            android:onClick="gujrat"
+            android:src="@drawable/gujratlogo"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="15dp"
+            android:onClick="punjab"
+            android:src="@drawable/punjablogo"/>
+
+    </LinearLayout>
+    </HorizontalScrollView>
+
+
+<!--    Banners -->
+    <ScrollView
+        android:id="@+id/bannersmain"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/statusbar"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/round_edge"
+        android:layout_height="wrap_content">
+
+        <HorizontalScrollView
+            android:background="@drawable/round_edge"
+            android:id="@+id/banners"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp">
+
+            <LinearLayout
+                android:id="@+id/bannerLinearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="375dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/varanasi1"
+                    android:scaleType="fitCenter"
+                    />
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="375dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/navaratri1"
+                    android:scaleType="fitCenter"
+                    />
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="375dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/durgapuja1"
+                    android:scaleType="fitCenter"
+                   />
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="375dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/ganeshchaturti1"
+                    android:scaleType="fitCenter"
+                   />
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="375dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/diwali1"
+                    android:scaleType="fitCenter"
+                    />
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="375dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/dushera"
+                    android:scaleType="fitCenter"
+                    />
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="375dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/shivrartri1"
+                    android:scaleType="fitCenter"
+                    />
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="375dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/indianculture"
+                    android:scaleType="fitCenter"
+                    />
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="375dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/holi1"
+                    android:scaleType="fitCenter"
+                    />
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="375dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/holi2"
+                    android:scaleType="fitCenter"
+                    />
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </ScrollView>
+
+    <ScrollView
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/round_transparent"
+        android:layout_below="@id/bannersmain"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Festive Spirit"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The diversity of festivals includes all of the events celebrated all over India. It reflects the diverse culture of the nation. It consists of recognizing and honouring diverse seasonal, regional, and religious festivals that reflect the rituals and customs of different cultures. "
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The festival diversity in India holds immense significance for several reasons. Festival celebrations in India are more than social occasions. They are firmly established in customs and rituals. Indian festival diversity plays a significant role in many ways. "
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="India’s festival celebrations serve to further the concept of “unity in diversity.” Festivals bring people from different backgrounds together, establishing a sense of unity and social peace despite the cultural, linguistic, and religious divides. People of many faiths celebrate festivals like Diwali, Eid, Christmas, Gurpurab, Holi, and Durga Puja, transcending religious boundaries and encouraging respect and understanding among all people."
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+<!-- Navigation Bar   -->
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/round_edge"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:onClick="openHome"
+            android:src="@drawable/ic_baseline_home_24"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:onClick="opengallery"
+            android:src="@drawable/ic_baseline_insert_photo_24"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:onClick="openlist"
+            android:src="@drawable/ic_baseline_list_alt_24"
+            />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:onClick="opensearch"
+            android:src="@drawable/ic_baseline_arrow_back_24"/>
+
+    </LinearLayout>
+</RelativeLayout>
